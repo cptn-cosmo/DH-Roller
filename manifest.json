@@ -6,16 +6,9 @@
   "descriptionFilePath": "/readme.md",
   "version": "0.1",
 "about": {
-    "website": "https://example.com", 
-
-
+    "website": "https://github.com/cptn-cosmo/DH-Roller", 
     "authors": [ 
-
-
-      "Jane Doe", 
-
-
-      "John Doe"
+      "cptn-cosmo"
     ]
   },  "license": "GPL-3.0", 
   "api": {
