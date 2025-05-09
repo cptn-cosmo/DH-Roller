@@ -1,0 +1,39 @@
+{
+  "manifestVersion": 1,
+  "name": "Daggerheart Dice Roller",
+  "summary": "A Symbiote to roll duality dice with advantage or disadvantage",
+  "entryPoint": "/roll.html",
+  "descriptionFilePath": "/readme.md",
+  "version": "0.1",
+"about": {
+    "website": "https://example.com", 
+
+
+    "authors": [ 
+
+
+      "Jane Doe", 
+
+
+      "John Doe"
+    ]
+  },  "license": "GPL-3.0", 
+  "api": {
+    "version": "0.1",
+    "subscriptions": {
+      "dice": {
+        "onRollResults": "handleRollResult"
+      }
+    }
+  },
+  "environment": {
+    "webViewBackgroundColor": "#000000",
+    "capabilities": [
+      "runInBackground"
+    ],
+    "extras": [
+      "fonts",
+      "colorStyles"
+    ]
+  }
+}

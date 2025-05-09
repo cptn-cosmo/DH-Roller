@@ -1,0 +1,86 @@
+/* roll.css */
+
+body {
+    margin: 0;
+    padding: 2rem;
+    background-color: #121212;
+    color: #e7c74b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #e7c74b;
+    text-align: center;
+}
+
+.content-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.field-title {
+    font-size: 1rem;
+    color: #e7c74b;
+}
+
+input[type="number"],
+select {
+    font-size: 1.25rem;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus,
+select:focus {
+    border-color: #5dade2;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    background-color: #5dade2;
+    color: #121212;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+.spacer {
+    height: 1rem;
+}
+
+/* Prevent scrollbar on dropdown */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1rem;
+    padding-right: 2rem;
+}
+
+/* Optional: hide scrollbar in Firefox */
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #ffffff;
+}
