@@ -8,7 +8,8 @@
 "about": {
     "website": "https://github.com/cptn-cosmo/DH-Roller", 
     "authors": [ 
-      "cptn-cosmo"
+      "cptn-cosmo",
+      "Mysteryusy"
     ]
   },  "license": "GPL-3.0", 
   "api": {
