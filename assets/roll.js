@@ -14,10 +14,11 @@ function roll(type) {
 async function rollDualityDice() {
     const modifier = parseInt(document.getElementById("modifier").value) || 0;
     const advDisadv = document.getElementById("adv-disadv").value;
+    const replaceHopeWithD20 = document.getElementById("hope-d20-toggle").checked;
 
     // Define the dice groups
     const diceGroups = [
-        { name: "Hope", roll: "1d12", color: "yellow" },
+        { name: "Hope", roll: replaceHopeWithD20 ? "1d20" : "1d12", color: "yellow" },
         { name: "Fear", roll: "1d12", color: "purple" }
     ];
 
