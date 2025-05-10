@@ -1,7 +1,7 @@
-This is a very simple Duality Dice Roller for Daggerheart
+This is a very simple Duality Dice Roller for Daggerheart in Talespire
 
 Just add your modifiers (if any, can be positive or negative),
-and if it applies select Advantage/Disatvantage.
+and if it applies select Advantage/Disadvantage.
 
 As soon as you click the "Roll Duality Dice" Button the roll gets added to the tray,
 from which you can roll the dice like any other roll.
