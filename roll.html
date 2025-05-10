@@ -2,18 +2,23 @@
 <html>
 <head>
     <title>Daggerheart Dice Roller</title>
-    <link rel="stylesheet" href="roll.css">
-    <script src="roll.js"></script>
+    <link rel="stylesheet" href="assets/roll.css">
+    <script src="assets/roll.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1 style="margin-top: 0">Duality Dice Roll</h1>
+    <h1 style="margin-top: 0">Duality Dice Roller</h1>
+    
 <div class="content-row">
+    <img src="assets/divider.png" alt="divider"><br>
     <label class="field-title" for="modifier">Modifier</label>
     <input id="modifier" type="number" placeholder="0"></input>
 </div>
 <div class="content-row">
-    <label class="field-title" for="adv-disadv">Advantage/Disadvantage</label>
+    <label class="field-title" for="adv-disadv">Advantage / Disadvantage</label>
     <select id="adv-disadv" size="1">
         <option value="none">None</option>
         <option value="advantage">Advantage</option>
@@ -23,6 +28,8 @@
 <div class="content-row">
     <span class="spacer"></span>
     <button id="roll-duality" onclick="rollDualityDice()">Roll Duality Dice</button>
+    <br><br>
+    <img src="assets/divider.png" alt="divider">
 </div>
 </body>
 </html>

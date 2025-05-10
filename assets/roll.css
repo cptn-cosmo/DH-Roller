@@ -3,9 +3,13 @@
 body {
     margin: 0;
     padding: 2rem;
-    background-color: #121212;
+    background-color: #090f21;
     color: #e7c74b;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('bg.webp');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -13,6 +17,7 @@ h1 {
     margin-bottom: 2rem;
     color: #e7c74b;
     text-align: center;
+    font-family: "Notable", sans-serif;
 }
 
 .content-row {
@@ -50,7 +55,7 @@ select:focus {
 button {
     padding: 0.75rem 1.5rem;
     font-size: 1.25rem;
-    background-color: #5dade2;
+    background-color: #e7c74b;
     color: #121212;
     border: none;
     border-radius: 8px;
@@ -60,7 +65,7 @@ button {
 }
 
 button:hover {
-    background-color: #3498db;
+    background-color: #ab39bf;
 }
 
 .spacer {
